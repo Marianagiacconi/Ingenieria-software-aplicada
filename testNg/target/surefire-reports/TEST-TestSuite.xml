@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.184" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/marian/Ingenieria-software-aplicada/testNg/testng/target/test-classes:/home/marian/Ingenieria-software-aplicada/testNg/testng/target/classes:/root/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/root/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/root/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/marian/Ingenieria-software-aplicada/testNg/testng/target/surefire/surefirebooter15830276610216257856.jar /home/marian/Ingenieria-software-aplicada/testNg/testng/target/surefire 2023-11-20T11-31-36_295-jvmRun1 surefire857503281040036706tmp surefire_015368902625218936725tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/marian/Ingenieria-software-aplicada/testNg/testng/target/test-classes:/home/marian/Ingenieria-software-aplicada/testNg/testng/target/classes:/root/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/root/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/root/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/marian/Ingenieria-software-aplicada/testNg/testng"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/marian/Ingenieria-software-aplicada/testNg/testng/target/surefire/surefirebooter15830276610216257856.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+1-Ubuntu-0ubuntu122.04"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.2.0-36-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="/home/marian/Ingenieria-software-aplicada/testNg/testng"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="17.0.8.1+1-Ubuntu-0ubuntu122.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCase1" classname="PrimerTest" time="0.001"/>
+  <testcase name="testCase2" classname="PrimerTest" time="0"/>
+  <testcase name="testLibraryFunctionality" classname="LibraryTest" time="0.001"/>
+  <testcase name="Auto1" classname="SegundoTest" time="0"/>
+  <testcase name="Scooter1" classname="SegundoTest" time="0"/>
+  <testcase name="Scooter2" classname="SegundoTest" time="0"/>
+  <testcase name="Sedan1" classname="SegundoTest" time="0"/>
+  <testcase name="sumarFlotantes" classname="SumaTest" time="0"/>
+  <testcase name="sumarLetras" classname="SumaTest" time="0"/>
+  <testcase name="sumarNegativos" classname="SumaTest" time="0"/>
+  <testcase name="sumarNulos" classname="SumaTest" time="0"/>
+  <testcase name="sumarPositivos" classname="SumaTest" time="0"/>
+</testsuite>

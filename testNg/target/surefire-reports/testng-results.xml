@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-20T14:31:37Z" name="Surefire suite" finished-at="2023-11-20T14:31:37Z" duration-ms="12">
+    <groups>
+      <group name="Auto">
+        <method signature="SegundoTest.Auto1()[pri:0, instance:SegundoTest@15d0c81b]" name="Auto1" class="SegundoTest"/>
+        <method signature="SegundoTest.Sedan1()[pri:0, instance:SegundoTest@15d0c81b]" name="Sedan1" class="SegundoTest"/>
+      </group> <!-- Auto -->
+      <group name="Scooter">
+        <method signature="SegundoTest.Scooter1()[pri:0, instance:SegundoTest@15d0c81b]" name="Scooter1" class="SegundoTest"/>
+        <method signature="SegundoTest.Scooter2()[pri:0, instance:SegundoTest@15d0c81b]" name="Scooter2" class="SegundoTest"/>
+      </group> <!-- Scooter -->
+      <group name="Sedan Auto">
+        <method signature="SegundoTest.Sedan1()[pri:0, instance:SegundoTest@15d0c81b]" name="Sedan1" class="SegundoTest"/>
+      </group> <!-- Sedan Auto -->
+    </groups>
+    <test started-at="2023-11-20T14:31:37Z" name="Surefire test" finished-at="2023-11-20T14:31:37Z" duration-ms="12">
+      <class name="SumaTest">
+        <test-method signature="sumarLetras()[pri:0, instance:SumaTest@1786dec2]" started-at="2023-11-20T14:31:37Z" name="sumarLetras" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumarLetras -->
+        <test-method signature="sumarNegativos()[pri:0, instance:SumaTest@1786dec2]" started-at="2023-11-20T14:31:37Z" name="sumarNegativos" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumarNegativos -->
+        <test-method signature="sumarNulos()[pri:0, instance:SumaTest@1786dec2]" started-at="2023-11-20T14:31:37Z" name="sumarNulos" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumarNulos -->
+        <test-method signature="sumarPositivos()[pri:0, instance:SumaTest@1786dec2]" started-at="2023-11-20T14:31:37Z" name="sumarPositivos" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumarPositivos -->
+        <test-method signature="sumarFlotantes()[pri:0, instance:SumaTest@1786dec2]" started-at="2023-11-20T14:31:37Z" name="sumarFlotantes" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumarFlotantes -->
+      </class> <!-- SumaTest -->
+      <class name="PrimerTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:PrimerTest@3b088d51]" started-at="2023-11-20T14:31:37Z" name="beforeMethod" finished-at="2023-11-20T14:31:37Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SumaTest@1786dec2]" started-at="2023-11-20T14:31:37Z" name="setUp" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase1()[pri:0, instance:PrimerTest@3b088d51]" started-at="2023-11-20T14:31:37Z" name="testCase1" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:PrimerTest@3b088d51]" started-at="2023-11-20T14:31:37Z" name="testCase2" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:PrimerTest@3b088d51]" started-at="2023-11-20T14:31:37Z" name="afterMethod" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:PrimerTest@3b088d51]" started-at="2023-11-20T14:31:37Z" name="afterMethod" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- PrimerTest -->
+      <class name="SegundoTest">
+        <test-method signature="Sedan1()[pri:0, instance:SegundoTest@15d0c81b]" started-at="2023-11-20T14:31:37Z" name="Sedan1" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+        <test-method signature="Scooter1()[pri:0, instance:SegundoTest@15d0c81b]" started-at="2023-11-20T14:31:37Z" name="Scooter1" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter1 -->
+        <test-method signature="Auto1()[pri:0, instance:SegundoTest@15d0c81b]" started-at="2023-11-20T14:31:37Z" name="Auto1" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Auto1 -->
+        <test-method signature="Scooter2()[pri:0, instance:SegundoTest@15d0c81b]" started-at="2023-11-20T14:31:37Z" name="Scooter2" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter2 -->
+      </class> <!-- SegundoTest -->
+      <class name="LibraryTest">
+        <test-method signature="testLibraryFunctionality()[pri:0, instance:LibraryTest@74650e52]" started-at="2023-11-20T14:31:37Z" name="testLibraryFunctionality" finished-at="2023-11-20T14:31:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLibraryFunctionality -->
+      </class> <!-- LibraryTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
